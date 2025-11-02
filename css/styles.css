@@ -156,6 +156,50 @@ p {
 
 }
 
+/* --------------------------ABOUT SECTION----------------- */
+.about {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.about-box {
+    padding-top: 40px;
+}
+
+.about-title {
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--primary-text-color);
+
+    max-width: 529px;
+    padding-bottom: 40px;
+}
+
+.about-title span {
+    color: var(--brand-color);
+}
+
+.about-text {
+    font-weight: 400;
+    line-height: 1.73;
+
+    padding-bottom: 40px;
+
+}
+
+.about-box .about-text:last-of-type {
+    padding-bottom: 0;
+}
+
+.about-text span {
+    font-weight: 600
+}
+
+.about-photo {}
+
+
 
 /* Модальне вікно */
 
@@ -170,16 +214,23 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: opacity .3s, visibility .3s;
 }
 
 .backdrop.is-hidden {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .modal {
     position: relative;
-    width: 723px;
-    height: 681px;
+    width: 100%;
+    max-width: 723px;
+    height: 100%;
+    max-height: 681px;
+
     background-color: var(--primary-text-color);
     border-radius: 48px;
 }
