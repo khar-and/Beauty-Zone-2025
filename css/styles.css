@@ -214,7 +214,56 @@ p {
 
 .about-photo {}
 
+/* -----------------------------SECTION WHY------------------ */
 
+.why {}
+
+.why-title {
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    max-width: 442px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.why-title span {
+    color: var(--brand-color);
+}
+
+.why-list {
+    display: flex;
+    gap: 56px;
+    justify-content: space-between;
+}
+
+.why-item {
+    padding: 24px 32px;
+    border-radius: 32px;
+    box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
+    background-color: var(--background-color);
+
+    outline: 1px solid green;
+}
+
+.why-item-icon {
+    display: block;
+    stroke: var(--brand-color);
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 8px auto;
+}
+
+
+.why-item-text {
+    /* font-family: var(--second-family); */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    /* color: var(--primary-text-color); */
+}
 
 /* Модальне вікно */
 
@@ -253,8 +302,6 @@ p {
     overflow-y: auto;
     ;
 }
-
-
 
 .modal-close {
     position: absolute;
