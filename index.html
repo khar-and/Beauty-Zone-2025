@@ -50,22 +50,54 @@
     <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal-close modal-btn-close" type="button">X</button>
-        <h2>Замовити дзвінок</h2>
-        <p>Запишіться безкоштовно та отримайте подарунок</p>
+        <h2 class="modal-title">Замовити дзвінок</h2>
+        <p class="modal-text">
+          Запишіться <span>безкоштовно</span> та отримайте подарунок
+        </p>
 
-        <label for="user-name">Ваше ім'я та прізвище</label>
-        <input type="text" id="user-name" name="user-name" />
+        <div class="modal-field">
+          <label class="modal-label visually-hidden" for="user-name"
+            >Ваше ім'я та прізвище</label
+          >
+          <input
+            class="modal-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Ваше ім'я та прізвище"
+          />
+        </div>
 
-        <label for="user-tel">Ваш номер телефону</label>
-        <input type="tel" id="user-tel" name="user-tel" />
+        <div class="modal-field">
+          <label class="modal-label visually-hidden" for="user-tel"
+            >Ваш номер телефону</label
+          >
+          <input
+            class="modal-input"
+            type="tel"
+            id="user-tel"
+            name="user-tel"
+            placeholder="Ваш номер телефону"
+          />
+        </div>
 
-        <label for="user-email">Ваша електронна пошта</label>
-        <input type="email" id="user-email" name="user-email" />
+        <div class="modal-field">
+          <label class="modal-label visually-hidden" for="user-email"
+            >Ваша електронна пошта</label
+          >
+          <input
+            class="modal-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="Ваша електронна пошта"
+          />
+        </div>
 
-        <button type="submit">Записатись безкоштовно</button>
-        <p>
+        <button type="submit" class="modal-btn">Записатись безкоштовно</button>
+        <p class="modal-terms">
           Натискаючи на кнопку я погоджуюсь
-          <a href="">з політикою конфіденційності</a>
+          <a href="#" class="modal-terms-link">з політикою конфіденційності</a>
         </p>
       </div>
     </div>
