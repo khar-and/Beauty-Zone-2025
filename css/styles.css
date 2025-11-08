@@ -387,6 +387,95 @@ p {
     color: var(--brand-color);
 }
 
+/* -----------------FOOTER---------------------- */
+.footer {
+    position: relative;
+    overflow: hidden;
+
+    background-image: url(../images/background-footer.svg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: var(--primary-text-color);
+    padding-top: 56px;
+    padding-bottom: 56px;
+
+    display: flex;
+    gap: 186px;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0.87;
+    color: var(--brand-color);
+    width: 83px;
+}
+
+.footer-menu {}
+
+.footer-item {
+    padding-bottom: 16px;
+}
+
+.footer-item:last-child {
+    padding-bottom: 0;
+}
+
+.footer-item-link {
+    font-size: 16px;
+    color: var(--background-color);
+}
+
+.footer-adress {}
+
+.footer-adress-link {
+    display: block;
+    font-size: 16px;
+    color: var(--background-color);
+    padding-bottom: 16px;
+    font-style: normal;
+
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 174px;
+}
+
+.footer-social-item {
+    width: 42px;
+    height: 42px;
+}
+
+.footer-social-link {}
+
+.footer-social-icon {
+    stroke: var(--background-color);
+}
+
+.footer-terms {}
+
+.footer-terms-link {
+    display: block;
+    font-size: 16px;
+    color: var(--background-color);
+    padding-bottom: 16px;
+}
+
+.footer-terms-text {
+    font-size: 13px;
+    color: var(--secondary-bcground-color);
+}
+
+.footer-photo {
+    position: absolute;
+    top: 126px;
+    right: -131px;
+}
 
 /* Модальне вікно */
 
